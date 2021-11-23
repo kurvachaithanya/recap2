@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("verify tomcat file"){
             steps{
-                sh "ls -l /tmp/"
+                sh "ls -l tomcat.sh"
             }
         }
         stage("copt tomcat to other remote server"){
